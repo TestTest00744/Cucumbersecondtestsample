@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="37.179179">
+<testcase classname="Checking Login &amp; Logout Functionality" name="Parametization the Test Case Functionality" time="13.820611">
+<system-out><![CDATA[Given User should Open Chrome Browser.......................................passed
+When User should Enter Url in Browser.......................................passed
+When User Should Navigate Home Page.........................................passed
+And Enter "Admin" and "admin123" in Edit Box................................passed
+And Click On Login PushButton...............................................passed
+Then Message displayed Login Successfully...................................passed
+Then User Should Navigate to Dashboard......................................passed
+Then User Should Logout OranageHRM Application..............................passed
+Then Message displayed Logout Successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Login &amp; Logout Functionality" name="Parametization the Test Case Functionality 2" time="11.909249">
+<system-out><![CDATA[Given User should Open Chrome Browser.......................................passed
+When User should Enter Url in Browser.......................................passed
+When User Should Navigate Home Page.........................................passed
+And Enter "Admin" and "admin123" in Edit Box................................passed
+And Click On Login PushButton...............................................passed
+Then Message displayed Login Successfully...................................passed
+Then User Should Navigate to Dashboard......................................passed
+Then User Should Logout OranageHRM Application..............................passed
+Then Message displayed Logout Successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Login &amp; Logout Functionality" name="Parametization the Test Case Functionality 3" time="11.449319">
+<system-out><![CDATA[Given User should Open Chrome Browser.......................................passed
+When User should Enter Url in Browser.......................................passed
+When User Should Navigate Home Page.........................................passed
+And Enter "Admin" and "admin123" in Edit Box................................passed
+And Click On Login PushButton...............................................passed
+Then Message displayed Login Successfully...................................passed
+Then User Should Navigate to Dashboard......................................passed
+Then User Should Logout OranageHRM Application..............................passed
+Then Message displayed Logout Successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

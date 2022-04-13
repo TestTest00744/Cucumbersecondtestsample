@@ -1,0 +1,408 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Parametization the Test Case Functionality",
+        "description": "",
+        "id": "checking-login-\u0026-logout-functionality;parametization-the-test-case-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4236663900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should Open Chrome Browser",
+            "match": {
+              "location": "LoginOranageHRM.user_should_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3793037400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should Enter Url in Browser",
+            "match": {
+              "location": "LoginOranageHRM.user_should_enter_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142182900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Navigate Home Page",
+            "match": {
+              "location": "LoginOranageHRM.user_should_navigate_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279549200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"Admin\" and \"admin123\" in Edit Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 7
+                },
+                {
+                  "val": "admin123",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginOranageHRM.enter_username_and_password_in_EditBox(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4499783700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click On Login PushButton",
+            "match": {
+              "location": "LoginOranageHRM.click_on_login_push_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "LoginOranageHRM.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77477700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should Navigate to Dashboard",
+            "match": {
+              "location": "LoginOranageHRM.user_should_navigate_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 791594800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should Logout OranageHRM Application",
+            "match": {
+              "location": "LoginOranageHRM.user_should_logout_oranage_hrm_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 210200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Message displayed Logout Successfully",
+            "match": {
+              "location": "LoginOranageHRM.message_displayed_logout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Parametization the Test Case Functionality",
+        "description": "",
+        "id": "checking-login-\u0026-logout-functionality;parametization-the-test-case-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1658262500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should Open Chrome Browser",
+            "match": {
+              "location": "LoginOranageHRM.user_should_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3790503200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should Enter Url in Browser",
+            "match": {
+              "location": "LoginOranageHRM.user_should_enter_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130382000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Navigate Home Page",
+            "match": {
+              "location": "LoginOranageHRM.user_should_navigate_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 239748700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"Admin\" and \"admin123\" in Edit Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 7
+                },
+                {
+                  "val": "admin123",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginOranageHRM.enter_username_and_password_in_EditBox(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5001305500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click On Login PushButton",
+            "match": {
+              "location": "LoginOranageHRM.click_on_login_push_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "LoginOranageHRM.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83908700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should Navigate to Dashboard",
+            "match": {
+              "location": "LoginOranageHRM.user_should_navigate_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1004879600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should Logout OranageHRM Application",
+            "match": {
+              "location": "LoginOranageHRM.user_should_logout_oranage_hrm_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 182000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Message displayed Logout Successfully",
+            "match": {
+              "location": "LoginOranageHRM.message_displayed_logout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Parametization the Test Case Functionality",
+        "description": "",
+        "id": "checking-login-\u0026-logout-functionality;parametization-the-test-case-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1667051600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should Open Chrome Browser",
+            "match": {
+              "location": "LoginOranageHRM.user_should_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4148854700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should Enter Url in Browser",
+            "match": {
+              "location": "LoginOranageHRM.user_should_enter_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140508800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Navigate Home Page",
+            "match": {
+              "location": "LoginOranageHRM.user_should_navigate_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262633200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"Admin\" and \"admin123\" in Edit Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 7
+                },
+                {
+                  "val": "admin123",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginOranageHRM.enter_username_and_password_in_EditBox(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4393683400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click On Login PushButton",
+            "match": {
+              "location": "LoginOranageHRM.click_on_login_push_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "LoginOranageHRM.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71705200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should Navigate to Dashboard",
+            "match": {
+              "location": "LoginOranageHRM.user_should_navigate_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 764674000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should Logout OranageHRM Application",
+            "match": {
+              "location": "LoginOranageHRM.user_should_logout_oranage_hrm_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Message displayed Logout Successfully",
+            "match": {
+              "location": "LoginOranageHRM.message_displayed_logout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login \u0026 Logout Functionality",
+    "description": "",
+    "id": "checking-login-\u0026-logout-functionality",
+    "keyword": "Feature",
+    "uri": "D:/CucumberTestClass/CucumberSecondSampleTest/Features/LoginTest.feature"
+  }
+]
